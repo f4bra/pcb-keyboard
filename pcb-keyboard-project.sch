@@ -276,9 +276,7 @@ F 3 "~" H 1800 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2850 2400 1800 2400
-Wire Wire Line
-	1800 2600 2850 2600
+	1800 2600 2550 2600
 $Comp
 L Device:C_Small C1
 U 1 1 5D2E6CFB
@@ -305,7 +303,6 @@ Wire Wire Line
 	1800 2400 1350 2400
 Wire Wire Line
 	1350 2400 1350 2350
-Connection ~ 1800 2400
 Wire Wire Line
 	1150 2350 1150 2600
 Wire Wire Line
@@ -592,4 +589,23 @@ Text GLabel 4850 2750 0    50   Input ~ 0
 ROW0
 Text GLabel 4850 3450 0    50   Input ~ 0
 ROW1
+Wire Wire Line
+	2850 2200 1900 2200
+Wire Wire Line
+	1900 2200 1900 2400
+Wire Wire Line
+	1900 2400 1800 2400
+Connection ~ 1800 2400
+Wire Wire Line
+	2550 2600 2550 2400
+Wire Wire Line
+	2550 2400 2850 2400
+Text GLabel 4050 3900 2    50   Input ~ 0
+ROW0
+Text GLabel 4050 2600 2    50   Input ~ 0
+ROW1
+Text GLabel 4050 2500 2    50   Input ~ 0
+COL0
+Text GLabel 4050 2400 2    50   Input ~ 0
+COL1
 $EndSCHEMATC
